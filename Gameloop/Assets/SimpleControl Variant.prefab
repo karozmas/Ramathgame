@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6858387557615523815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 296390861772999728, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 381.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.9836717
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 360.09177
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814561577432465404, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024087969374682135, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_Name
+      value: SimpleControl Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7567091113326009826, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: _joystick
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7567091113326009826, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: _runField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7567091113326009826, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7567091113326009826, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: _jumpButton
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7567091113326009826, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: _touchField
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7919864612010190489, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7919864612010190489, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+      propertyPath: settingsInputTuner
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 2083360427762003674, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+    - {fileID: 3630502412574890641, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+    - {fileID: 1821323090947481229, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+    - {fileID: 6979128662234934162, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fd2b819a490be74998aead912c56eb4, type: 3}
