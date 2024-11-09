@@ -1,0 +1,13 @@
+******About Battery's material:*******
+You can use either Flashlight1_mat or Flashlight2_mat as the battery's material (as both contain the same battery textures), according to which flashlight you may decide to use.
+
+
+******About flashlight parts:********
+Both flashlights have three parts: the main body, the interior part and the glass. You can choose whether or not to disable some of them, or use them all.
+
+
+******About glass materials:********
+There are three materials for you to choose which one works best:
+1 - Glass_mat (can be used for all transparent glass parts)
+2 - GlassFlashlight_mat (non-transparent, includes an emission map, to be used with either flashlight)
+3 - GlassOilLamp_mat (non-transparent, includes an emission map, to be used with either oil lamp)
