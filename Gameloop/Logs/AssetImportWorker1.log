@@ -1,0 +1,315 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ar' Physical Memory: 15718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity1\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProj/gameloop/Gameloop
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57886
+Successfully changed project path to: D:/UnityProj/gameloop/Gameloop
+D:/UnityProj/gameloop/Gameloop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21384] Host "[IP] 192.168.77.102 [Port] 0 [Flags] 2 [Guid] 2728295963 [EditorId] 2728295963 [Version] 1048832 [Id] WindowsEditor(7,Abdulelah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21384] Host "[IP] 192.168.77.102 [Port] 0 [Flags] 2 [Guid] 2728295963 [EditorId] 2728295963 [Version] 1048832 [Id] WindowsEditor(7,Abdulelah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 14.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path D:/Unity1/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProj/gameloop/Gameloop/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Unity1/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity1/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity1/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity1/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003163 seconds.
+- Loaded All Assemblies, in  0.404 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.285 seconds
+Domain Reload Profiling: 689ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.949 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.153 seconds
+Domain Reload Profiling: 2102ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (652ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (366ms)
+			TypeCache.Refresh (314ms)
+				TypeCache.ScanAssembly (291ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1154ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (934ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6523 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (1.7 MB). Loaded Objects now: 6992.
+Memory consumption went from 276.6 MB to 275.0 MB.
+Total: 5.862100 ms (FindLiveObjects: 0.458900 ms CreateObjectMapping: 0.421700 ms MarkObjects: 4.295300 ms  DeleteObjects: 0.685000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51878.463431 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Coussin3.mat
+  artifactKey: Guid(f8fa74653067d76409194505dd030c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Coussin3.mat using Guid(f8fa74653067d76409194505dd030c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb79e80e7d44e68b86c0a1b7e9bb34') in 0.337988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Materials
+  artifactKey: Guid(01f3af5b193df1745b34733f64c47ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Materials using Guid(01f3af5b193df1745b34733f64c47ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c36b0973b99277f022cae9558ad333') in 0.000738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Tapis2.mat
+  artifactKey: Guid(93d7a5a5032b0484587b97c3cf34e7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Tapis2.mat using Guid(93d7a5a5032b0484587b97c3cf34e7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b76e6cf553103018209230475676958') in 0.017354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Tapis_coussins.fbx
+  artifactKey: Guid(96caa27b1db5c664d92402fb042b3e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Tapis_coussins.fbx using Guid(96caa27b1db5c664d92402fb042b3e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0441c444b8ee09a63c903dd3e56455') in 0.128810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Tapis3.mat
+  artifactKey: Guid(6944a96d6fbd8c84e8ef0e32929df0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Tapis3.mat using Guid(6944a96d6fbd8c84e8ef0e32929df0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72daa73058c3ccb81c9876413a03fc8') in 0.015317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Coussin2.mat
+  artifactKey: Guid(29d368a0a3573fa4891cbdaa2306d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/source/Materials/Tapis_coussins-Coussin2.mat using Guid(29d368a0a3573fa4891cbdaa2306d679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70ba7a290757a4f6c65e51700333b4e') in 0.016593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.425130 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_basecolor_003.png
+  artifactKey: Guid(08cf2335d9e9ec844a9346894d2258cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_basecolor_003.png using Guid(08cf2335d9e9ec844a9346894d2258cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63b8656eda399db44c754d7d8a7af14') in 0.031454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_002.png
+  artifactKey: Guid(e89b68f208add4a4ebdac00fbd96d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_002.png using Guid(e89b68f208add4a4ebdac00fbd96d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e73ede91d7d34139495e7baeaed32fa') in 0.025164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_004.png
+  artifactKey: Guid(107c58af0b48c2b43958ecc4ab33fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_004.png using Guid(107c58af0b48c2b43958ecc4ab33fec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e151687522ad4f04014f0479c527aef') in 0.025253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_basecolor_001.png
+  artifactKey: Guid(b500ec011369f6646b125d6e908c115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_basecolor_001.png using Guid(b500ec011369f6646b125d6e908c115d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028240d96398dd61fa7c70878aee1300') in 0.021262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_basecolor_004.png
+  artifactKey: Guid(81f19ca907c526640a9de66a6cb00b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_basecolor_004.png using Guid(81f19ca907c526640a9de66a6cb00b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f2e54060263f8ee4053d65f77135b0') in 0.019477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_metallic_003.png
+  artifactKey: Guid(11645d6843ae5cc44ba095ce5752b29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_metallic_003.png using Guid(11645d6843ae5cc44ba095ce5752b29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfc6dd5df59d54b6c33cd4a5f10cd43') in 0.021511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_003.png
+  artifactKey: Guid(1d1d958b05b4bf548bd572495b9448b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Coussin_metallic_003.png using Guid(1d1d958b05b4bf548bd572495b9448b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85450d29c87648b946aa11e56907641b') in 0.017449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_roughness_002.png
+  artifactKey: Guid(a5726cf0fdab2fd44b398a6b852345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_roughness_002.png using Guid(a5726cf0fdab2fd44b398a6b852345dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51594de79d806724539280b0dba3705') in 0.020734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_metallic_002.png
+  artifactKey: Guid(a4b33b1f353eaee48a146b73a73d9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/textures/Tapis_metallic_002.png using Guid(a4b33b1f353eaee48a146b73a73d9e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a27900b38dd22a9090effcb851dad') in 0.028356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.025871 seconds.
+  path: Assets/ottoman-pillow-and-carpets-v2/Materials/Coussin_basecolor_004.mat
+  artifactKey: Guid(c805b71faac8e884f980db05e32ff05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ottoman-pillow-and-carpets-v2/Materials/Coussin_basecolor_004.mat using Guid(c805b71faac8e884f980db05e32ff05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321a57275a7f5f959108d22f7fcbc83e') in 0.040846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

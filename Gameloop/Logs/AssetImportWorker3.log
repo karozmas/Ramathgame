@@ -1,0 +1,515 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ar' Physical Memory: 15718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity1\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/UnityProj/gameloop/Gameloop
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57886
+Successfully changed project path to: D:/UnityProj/gameloop/Gameloop
+D:/UnityProj/gameloop/Gameloop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24044] Host "[IP] 192.168.77.102 [Port] 0 [Flags] 2 [Guid] 1571401449 [EditorId] 1571401449 [Version] 1048832 [Id] WindowsEditor(7,Abdulelah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24044] Host "[IP] 192.168.77.102 [Port] 0 [Flags] 2 [Guid] 1571401449 [EditorId] 1571401449 [Version] 1048832 [Id] WindowsEditor(7,Abdulelah) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path D:/Unity1/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProj/gameloop/Gameloop/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12115 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/Unity1/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity1/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity1/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity1/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003297 seconds.
+- Loaded All Assemblies, in  0.366 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 631ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 4.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.949 seconds
+Domain Reload Profiling: 1781ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (379ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (255ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6523 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 111 unused Assets / (1.6 MB). Loaded Objects now: 6992.
+Memory consumption went from 276.7 MB to 275.0 MB.
+Total: 4.794500 ms (FindLiveObjects: 0.494200 ms CreateObjectMapping: 0.381100 ms MarkObjects: 3.429700 ms  DeleteObjects: 0.488300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52345.421440 seconds.
+  path: Assets/VHS System.prefab
+  artifactKey: Guid(4fe8be047067ece44b978cc54db24228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VHS System.prefab using Guid(4fe8be047067ece44b978cc54db24228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d5c943a112c000bff1e19fda2d6f66') in 0.612876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 310
+========================================================================
+Received Import Request.
+  Time since last request: 2.320606 seconds.
+  path: Assets/Scenes/Housse.unity
+  artifactKey: Guid(44f8144ba0560614aa194ac6ad431fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Housse.unity using Guid(44f8144ba0560614aa194ac6ad431fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94bfdaa8ac30e31f602208ceafe17c') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 221.322403 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Desert_Building_MetallicSmoothness.png
+  artifactKey: Guid(a46223de13fa44a449a7096dd739f4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Desert_Building_MetallicSmoothness.png using Guid(a46223de13fa44a449a7096dd739f4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '494f2380ac2c97e6fd3bfb17ade20e57') in 0.048100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F1_F1_MetallicSmoothness.png
+  artifactKey: Guid(7d553d34c2713614082aae62851ee1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F1_F1_MetallicSmoothness.png using Guid(7d553d34c2713614082aae62851ee1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9ff002c62b08f1ea3e86a10eec140f') in 0.033986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_MetallicSmoothness.png
+  artifactKey: Guid(d2a59d17d05da854cbdb66f714a2413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_MetallicSmoothness.png using Guid(d2a59d17d05da854cbdb66f714a2413c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1501d98dbbfa80e623032030f45fa0b') in 0.024145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W9_W9_AlbedoTransparency.png
+  artifactKey: Guid(a5b9edf98a18d5b479254a6755aad6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W9_W9_AlbedoTransparency.png using Guid(a5b9edf98a18d5b479254a6755aad6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92530ea5b64525edb760007621b19dd') in 0.020959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_L_MetallicSmoothness.png
+  artifactKey: Guid(78991d3db837ed747b74d385e95e1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_L_MetallicSmoothness.png using Guid(78991d3db837ed747b74d385e95e1772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdcb7f8da8b0f75b1ed2b7db486cc4c') in 0.043961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_MetallicSmoothness.png
+  artifactKey: Guid(2f4abcd5ea9d6c740b4dbba3bb717ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_MetallicSmoothness.png using Guid(2f4abcd5ea9d6c740b4dbba3bb717ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec220b58c8037058a6f8817162e62904') in 0.043270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W10_W10_MetallicSmoothness.png
+  artifactKey: Guid(ce27cf48de1acf64694e7ce690adf949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W10_W10_MetallicSmoothness.png using Guid(ce27cf48de1acf64694e7ce690adf949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fd9205f22623777414ea2791f630fc') in 0.117261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R1_R1_AlbedoTransparency.png
+  artifactKey: Guid(4d071e3c067998a4a8a5be72c8a90a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R1_R1_AlbedoTransparency.png using Guid(4d071e3c067998a4a8a5be72c8a90a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76673e28bb4e7f498822cee71b65c694') in 0.020884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_MetallicSmoothness.png
+  artifactKey: Guid(781e08160ce16824c940c51443b1ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_MetallicSmoothness.png using Guid(781e08160ce16824c940c51443b1ba87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0841bca62c9fd45e90fa3885137b4a3e') in 0.074818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W3_W3_MetallicSmoothness.png
+  artifactKey: Guid(54d542ed7de5eda419180d395c25f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W3_W3_MetallicSmoothness.png using Guid(54d542ed7de5eda419180d395c25f9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3b28929fc5f0a0220ea5d59c27caa6') in 0.029343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_Normal.png
+  artifactKey: Guid(861e47d741a9c3b4f8ced3aadacc4b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_Normal.png using Guid(861e47d741a9c3b4f8ced3aadacc4b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1df0652d623b6e52fb8b295400031') in 0.032217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_Normal.png
+  artifactKey: Guid(c182bb53e6bad4c49a1f09c2c9728a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_Normal.png using Guid(c182bb53e6bad4c49a1f09c2c9728a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d93ae557093cfb8eedce4d09298c831') in 0.029327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V4_Desert_Building_Destroyed_V4_Normal.png
+  artifactKey: Guid(14b1098b5f81fcb498fc8e6a0ed91627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V4_Desert_Building_Destroyed_V4_Normal.png using Guid(14b1098b5f81fcb498fc8e6a0ed91627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c11fe12925dbf997db203139e473f9e') in 0.030194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_R_Normal.png
+  artifactKey: Guid(5ca7fc3bce9576a4ebf16eb18b2223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_R_Normal.png using Guid(5ca7fc3bce9576a4ebf16eb18b2223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b192c3dc11314282dc662ad9432f84da') in 0.030879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W1_W1_MetallicSmoothness.png
+  artifactKey: Guid(00b94b7203488514ebc4a4ca82aac476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W1_W1_MetallicSmoothness.png using Guid(00b94b7203488514ebc4a4ca82aac476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3ece6d3a1211d87c2e335b98a8e3f9') in 0.052624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W5_W5_Normal.png
+  artifactKey: Guid(cb81792a568184d40aa61b7c6349bf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W5_W5_Normal.png using Guid(cb81792a568184d40aa61b7c6349bf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e37cf2a2676f73a5f276f11f6a098f') in 0.030295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_AlbedoTransparency.png
+  artifactKey: Guid(a93a9124860f73c4eb9d07937a3f78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W6_W6_AlbedoTransparency.png using Guid(a93a9124860f73c4eb9d07937a3f78d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b5cf43d7353a734c37a495520bd580') in 0.019616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W2_W2_MetallicSmoothness.png
+  artifactKey: Guid(a1a9b1b0e979c6444b026ff74277278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W2_W2_MetallicSmoothness.png using Guid(a1a9b1b0e979c6444b026ff74277278e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d8eba38eaba34d624b89478da236a2') in 0.026530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_ST_ST_AlbedoTransparency.png
+  artifactKey: Guid(4c14e193adbd0bd4d97a153a3ded6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_ST_ST_AlbedoTransparency.png using Guid(4c14e193adbd0bd4d97a153a3ded6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b6e5bdeb2648b4271436550c9b1433') in 0.019839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W8_W8_MetallicSmoothness.png
+  artifactKey: Guid(b63ea0aba1951174bb7481cc0e6f32c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W8_W8_MetallicSmoothness.png using Guid(b63ea0aba1951174bb7481cc0e6f32c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b748f33e03d9f475ac4e4a852c9a9c8') in 0.038810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_MetallicSmoothness.png
+  artifactKey: Guid(76cac0dfcdbce364cbf1e4e86cdb292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_MetallicSmoothness.png using Guid(76cac0dfcdbce364cbf1e4e86cdb292a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c09e9173db8ff2ed9904d47e1a7fe99') in 0.023251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_AlbedoTransparency.png
+  artifactKey: Guid(b3494533cf9f80a4aa9daf1e59dd485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_AlbedoTransparency.png using Guid(b3494533cf9f80a4aa9daf1e59dd485e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64417726092ba8d912a006042ca16852') in 0.023828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R2_R2_AlbedoTransparency.png
+  artifactKey: Guid(fb25670fcf88b35429ed8b5f12b32b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R2_R2_AlbedoTransparency.png using Guid(fb25670fcf88b35429ed8b5f12b32b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baadde2228d5a56191fef216e01e669f') in 0.020818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W9_W9_Normal.png
+  artifactKey: Guid(c8b93638bbff70f46bbc800b366c6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W9_W9_Normal.png using Guid(c8b93638bbff70f46bbc800b366c6b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79bf4267ba5d0438dd5466af62413ac') in 0.048591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V4_Desert_Building_Destroyed_V4_AlbedoTransparency.png
+  artifactKey: Guid(04c6b7d5172baa34aa7cee4a1cd63c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V4_Desert_Building_Destroyed_V4_AlbedoTransparency.png using Guid(04c6b7d5172baa34aa7cee4a1cd63c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f986072e0a3c0c094116dc0c5a22af1') in 0.021457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Desert_Building_Normal.png
+  artifactKey: Guid(6f8a6667680fcfa4e87a33be9d948d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Desert_Building_Normal.png using Guid(6f8a6667680fcfa4e87a33be9d948d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1377ed4dfd3149ae00469d574279991b') in 0.026901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W4_W4_MetallicSmoothness.png
+  artifactKey: Guid(aa0ee556ffee42e43813ff59880588db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_W4_W4_MetallicSmoothness.png using Guid(aa0ee556ffee42e43813ff59880588db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c1ace590ba7b6d7ad1e659b7bd7c2b') in 0.075401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F2_F2_MetallicSmoothness.png
+  artifactKey: Guid(36080b4fc4cbecf4c8f6b1afef596c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F2_F2_MetallicSmoothness.png using Guid(36080b4fc4cbecf4c8f6b1afef596c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2530f893781e9b0ed17d87c77c2c18e') in 0.079061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_Normal.png
+  artifactKey: Guid(677bde18c8e5be8419ecc55bc6fa8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R4_R4_Normal.png using Guid(677bde18c8e5be8419ecc55bc6fa8050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad5c57ad9b22bdd82141d5f4c413bec') in 0.026417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_Normal.png
+  artifactKey: Guid(4aec9e16fb16dca41901972eff3987c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_Normal.png using Guid(4aec9e16fb16dca41901972eff3987c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d27275bd12adc783348d6adbdbe7d3') in 0.079903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R1_R1_Normal.png
+  artifactKey: Guid(8628d90231e7c2044938f753ad096ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R1_R1_Normal.png using Guid(8628d90231e7c2044938f753ad096ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06c5d46e71950984c76668110dc9510') in 0.030764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_AlbedoTransparency.png
+  artifactKey: Guid(4e812318cd38dda43881c61ba1828216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Door_Door_AlbedoTransparency.png using Guid(4e812318cd38dda43881c61ba1828216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018fe46990f7559e720f7c09e3b58de9') in 0.019444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F2_F2_Normal.png
+  artifactKey: Guid(0fd8d291be6be434c896e3aa0fda3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_F2_F2_Normal.png using Guid(0fd8d291be6be434c896e3aa0fda3db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91606334fd397a97456d8b8f969d9697') in 0.025597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_AlbedoTransparency.png
+  artifactKey: Guid(d0d6c401eedfff342ba4c1fcef5ca425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_R3_R3_AlbedoTransparency.png using Guid(d0d6c401eedfff342ba4c1fcef5ca425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34fe0ca7fb1d65616eee2c6987f1179') in 0.039179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_ST_ST_Normal.png
+  artifactKey: Guid(19195aa1ffe5ccf47a53570be7dd6e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_ST_ST_Normal.png using Guid(19195aa1ffe5ccf47a53570be7dd6e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52d873a6548ca0c7a79685537f3339e') in 0.026249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_R_AlbedoTransparency.png
+  artifactKey: Guid(502837daa527a354c94c2900a0bfccfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Modular_Window_Window_R_AlbedoTransparency.png using Guid(502837daa527a354c94c2900a0bfccfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8864b5a4b1358c4fc13c7298d74eb2fb') in 0.017798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_Desert_Building_Destroyed_Normal.png
+  artifactKey: Guid(cce2b42f1405c7046a899cac13b85a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_Desert_Building_Destroyed_Normal.png using Guid(cce2b42f1405c7046a899cac13b85a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973edacf5cb81b32e403c38c968b90d6') in 0.028052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_Desert_Building_Destroyed_AlbedoTransparency.png
+  artifactKey: Guid(eb11259f647651941a5f98075de5d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_Desert_Building_Destroyed_AlbedoTransparency.png using Guid(eb11259f647651941a5f98075de5d5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74226f103bfbe0603ab1f6e5fb0fc26a') in 0.020432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V3_Desert_Building_Destroyed_V3_AlbedoTransparency.png
+  artifactKey: Guid(1eeb0c6bf3e19e84387a968a7e341cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert_Buildings_Modular/Textures/Desert_Building_Destroyed_V3_Desert_Building_Destroyed_V3_AlbedoTransparency.png using Guid(1eeb0c6bf3e19e84387a968a7e341cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68ed299fb37b8a4c93ad1bb1d537b1c') in 0.019928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
